@@ -39,3 +39,8 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# build outputs (attach APKs to a GitHub Release instead)
+*.apk
+*.aab
+build.log
